@@ -37,9 +37,22 @@
       // Begin Swagger UI call region
       const ui = SwaggerUIBundle({
         urls: [
-            {url: "./e-auth.json", name: "e-auth"},
-            {url: "https://swagger.staging.eatigo.systems/e-restaurant.json", name: "e-restaurant"},
-            {url: "https://swagger.qa.eatigo.systems/e-platform.yml", name: "e-platform"}
+            { url: "./e-api.json", name: "e-api" },
+            { url: "./e-api-mobile.json", name: "e-api-mobile" },
+            { url: "./e-auth.json", name: "e-auth" },
+            { url: "./e-audit.json", name: "e-audit" }
+            { url: "./e-booking.json", name: "e-booking" },
+            { url: "./e-partner.json", name: "e-partner" },
+            { url: "./e-config.json", name: "e-config" },
+            { url: "./e-channel.json", name: "e-channel" },
+            { url: "./e-marketing.json", name: "e-marketing" },
+            { url: "./e-user.json", name: "e-user" },
+            { url: "./e-notification.json", name: "e-notification" },
+            { url: "./e-restaurant.json", name: "e-restaurant" },
+            { url: "./e-search.json", name: "e-search" },
+            { url: "./e-market.json", name: "e-market" },
+            { url: "./e-marketing.json", name: "e-marketing" }
+
         ],
         dom_id: '#swagger-ui',
         deepLinking: true,
